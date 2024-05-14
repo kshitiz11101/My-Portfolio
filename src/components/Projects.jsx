@@ -7,7 +7,7 @@ const Project = [
         title: "CodeHub",
         image: "Codehub.png",
         description: "CodeHub is a fully functional Code Editor using judge0 rapid-api. It compiles the code of more than 40 programming languages and has the ability to execute a program for a different test case using custom input.",
-        skills: "React.js, Typescript, Rapid-Api",
+        skills: "React.js, Rapid-Api",
         github: "https://github.com/kshitiz11101/Code-Hub",
         web: "https://codehub-sand.vercel.app/",
         style: true
