@@ -43,6 +43,16 @@ const Project = [
         github: "https://github.com/kshitiz11101/Weather-App",
         web: "https://weather-app-drab-seven.vercel.app/",
         style: false
+    },
+    {
+        type: "Assignment Project",
+        title: "Quiz App",
+        image: "Quiz.png",
+        description: "This is a quiz application made using react.js and tailwind css. This quiz consists of 10 questions based on programming fundamentals.",
+        skills: "React.js, Tailwind Css",
+        github: "https://github.com/kshitiz11101/smarthire-quiz-assignment",
+        web: "https://smarthire-quiz-assignment.vercel.app/",
+        style: false
     }
 ]
 
