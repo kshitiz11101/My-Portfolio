@@ -1,7 +1,18 @@
 import React from "react";
 import link from "../assets/icons/link.png";
 import video from "../assets/icons/video.png";
+
 const Project = [
+    {
+        type: "Personal Project",
+        title: "Talent Track",
+        image: "Talent.png",
+        description: "Developed a comprehensive Job Application System where job seekers can easily browse and apply for job postings.Enabled companies to post job and internship opportunities with detailed requirements and descriptions.",
+        skills: "MERN, JWT,Tailwind CSS,Cloudinary",
+        github: "https://github.com/kshitiz11101/Talent-Track",
+        web: "https://talent-track-one.vercel.app/",
+        style: true
+    },
     {
         type: "Personal Project",
         title: "CodeHub",
@@ -54,7 +65,7 @@ const Project = [
         web: "https://smarthire-quiz-assignment.vercel.app/",
         style: false
     }
-]
+];
 
 const Projects = () => {
     return (
@@ -68,7 +79,7 @@ const Projects = () => {
 
                 <div className="flex flex-col gap-32 md:gap-20 items-center xl:gap-20 mt-20">
                     {Project.map((project, index) => (
-                        <div key={index} className={`flex flex-col ${project.style ? "xl:flex-row-reverse md:flex-row-reverse" : "xl:flex-row md:flex-row"} justify-evenly gap-14 md:gap-5 md:mx-5 xl:gap-20 items-center`}>
+                        <div key={index} className={`flex flex-col ${index % 2 === 0 ? "xl:flex-row-reverse md:flex-row-reverse" : "xl:flex-row md:flex-row"} justify-evenly gap-14 md:gap-5 md:mx-5 xl:gap-20 items-center`}>
                             <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" className="flex flex-col gap-3 rounded-lg bg-grey dark:bg-gray-300 shadow-xl shadow-gray-300 dark:shadow-black p-5 px-5">
                                 <p className="font-bold text-cinder-light text-lg font-pjs">{project.type}</p>
                                 <p className="text-2xl xl:text-3xl -mt-2 font-extrabold text-cinder-dark-mode font-pjsk">{project.title}</p>
@@ -96,4 +107,5 @@ const Projects = () => {
         </>
     );
 };
+
 export default Projects;
