@@ -69,7 +69,7 @@ const Navbar = ({ darkMode, darkToggle }) => {
             )}
           </div>
           <a
-            href="https://drive.google.com/file/d/16oEcRavpheGjDlMuCJ4XVAM07M7hANZi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1YxZMQkZs7bkf0ScfnLYEVPLOeREkG_ED/view?usp=sharing"
             target="_blank"
             download="Kshitiz Sharma resume.pdf"
             className="border rounded-lg p-2 text-cinder-dark dark:text-gray-100 font-pjs hover:text-cinder-dark-mode dark:hover:text-cinder-dark-mode hover:shadow-md hover:font-semibold" rel="noreferrer"
