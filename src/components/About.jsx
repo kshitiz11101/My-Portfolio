@@ -96,7 +96,7 @@ const About = () => {
               data-aos-delay="500"
               className="xl:w-96 w-80 font-inter text-cinder-light dark:text-gray-100 leading-8"
             >
-              I'm a pre final year student pursuing Computer Science and
+              I'm a final year student pursuing Computer Science and
               Engineering from Maharaja Surajmal Institute of Technology. I'm a
               MERN Stack developement and would love to collaborate
               to build projects based on it. I've solved overall more than 500
