@@ -4,10 +4,31 @@ import video from "../assets/icons/video.png";
 
 const Project = [
     {
+        type: "Team Project",
+        title: "Attendance Management System",
+        image: "Attendance.png",
+        description: "Designed the whole system from scratch according to the College requirements specifically to mark and maintain record of attendance of over 1000+ Students daily.(Login with EID:123456789 ,Password:1234567890 for both roles)",
+        skills: "ReactJs,Django,PostgreSQL",
+        github: "https://github.com/kshitiz11101/Attendance-management",
+        web: "https://att-frontend-pi.vercel.app/",
+        style: true
+    },
+    {
+        type: "Team Project",
+        title: "Hridya-AI",
+        image: "Hridya.png",
+        description: "Hridya-AI aimed at predicting the readmission of heart-failure patients within 30 days of discharge.By leveraging machine learning, we hope to identify at-risk patients, enabling targeted interventions to reduce morbidity, mortality, and financial burdens on healthcare systems",
+        skills: "Pandas, NumPy, Scikit-learn, Flask, ReactJS",
+        github: "https://github.com/ShivanshAr97/HridyaAI",
+        web: "https://hridya-ai.vercel.app/",
+        style: true
+    },
+
+    {
         type: "Personal Project",
         title: "Talent Track",
         image: "Talent.png",
-        description: "Developed a comprehensive Job Application System where job seekers can easily browse and apply for job postings.Enabled companies to post job and internship opportunities with detailed requirements and descriptions.",
+        description: "Developed a comprehensive Job Application System where job seekers can easily browse and apply for job postings.Enabled companies to post job and internship opportunities with detailed requirements and descriptions.(For Job seekers: Email: user1@gmail.com Password: 123456, For Companies: Email: donar@gmail.com Password: 12345678).",
         skills: "MERN, JWT,Tailwind CSS,Cloudinary",
         github: "https://github.com/kshitiz11101/Talent-Track",
         web: "https://talent-track-one.vercel.app/",
