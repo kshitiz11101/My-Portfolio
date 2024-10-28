@@ -28,7 +28,7 @@ const Project = [
         type: "Personal Project",
         title: "Talent Track",
         image: "Talent.png",
-        description: "Developed a comprehensive Job Application System where job seekers can easily browse and apply for job postings.Enabled companies to post job and internship opportunities with detailed requirements and descriptions.(For Job seekers: Email: user1@gmail.com Password: 123456, For Companies: Email: donar@gmail.com Password: 12345678).",
+        description: "Developed a comprehensive Job Application System where job seekers can easily browse and apply for job postings.Enabled companies to post job and internship opportunities with detailed requirements and descriptions.(For job seekers: Email: kshitiz@gmail.com, Password: 12345678, For Companies: Email: google@gmail.com , Password: 12345678.)",
         skills: "MERN, JWT,Tailwind CSS,Cloudinary",
         github: "https://github.com/kshitiz11101/Talent-Track",
         web: "https://talent-track-one.vercel.app/",
