@@ -109,7 +109,7 @@ const Projects = () => {
                                 </p>
                                 <div className="flex gap-3 text-cinder-light font-medium font-inter">
                                     {project.skills.split(",").map((skill, index) => (
-                                        <p key={index} className="border rounded-md text-sm xl:text-md border-cinder-light p-1">{skill}</p>
+                                        <p key={index} className="border-cinder-light rounded-md text-sm xl:text-md hover:border-cyan-700 border-2 p-1 cursor-pointer hover:text-cyan-600 ">{skill}</p>
                                     ))}
                                 </div>
                                 <div className="flex gap-5 items-center">

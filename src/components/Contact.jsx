@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <section
         id="contact"
-        className="flex gap-10 flex-col mt-20  md:gap-0  items-center justify-evenl py-10"
+        className="flex gap-10 flex-col mt-10  md:gap-0  items-center justify-evenl py-10"
       >
         <div data-aos="zoom-in-down" data-aos-duration="800" className="flex flex-col gap-2 items-center">
           <div className="flex gap-3">

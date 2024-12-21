@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <section className="flex flex-col items-center gap-2 py-10 bg-grey dark:bg-gray-900">
+        <section className="flex flex-col items-center gap-2 py-2 bg-grey dark:bg-gray-900">
           <div className="flex items-center gap-5">
           <a data-aos="fade-right" data-aos-duration="800" data-aos-delay="800" href="https://github.com/kshitiz11101" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github fa-xl"></i>

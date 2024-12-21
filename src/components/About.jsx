@@ -88,13 +88,13 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row md:gap-0 xl:flex-row justify-evenly items-center gap-20 pt-5 pb-20">
+        <div className="flex flex-col md:flex-row md:gap-0 xl:flex-row justify-evenly items-center gap-20 pt-5 ">
           <div>
             <p
               data-aos="zoom-in-down"
               data-aos-duration="800"
               data-aos-delay="500"
-              className="xl:w-96 w-80 font-inter text-cinder-light dark:text-gray-100 leading-8"
+              className="xl:w-96 w-80 font-inter text-lg text-justify text-cinder-light dark:text-gray-100 leading-8"
             >
               I'm a final year student pursuing Computer Science and
               Engineering from Maharaja Surajmal Institute of Technology. I'm a
@@ -103,10 +103,13 @@ const About = () => {
               questions on multiple coding platforms like geeksforgeeks,
               Leetcode and Coding Ninjas, etc. I'm looking for some internships
               opportunities in software development.
-              <br />
+             
 
-              <b>Thank You for visiting my portfolio!!</b>
             </p>
+            <div className="mt-4 ">
+
+              <b className="text-xl">Thank You for visiting my portfolio!!</b>
+            </div>
           </div>
           <div
             data-aos="zoom-in-up"
