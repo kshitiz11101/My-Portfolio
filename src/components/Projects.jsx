@@ -104,7 +104,7 @@ const Projects = () => {
                             <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" className="flex flex-col gap-3 rounded-lg bg-grey dark:bg-gray-300 shadow-xl shadow-gray-300 dark:shadow-black p-5 px-5">
                                 <p className="font-bold text-cinder-light text-lg font-pjs">{project.type}</p>
                                 <p className="text-2xl xl:text-3xl -mt-2 font-extrabold text-cinder-dark-mode font-pjsk">{project.title}</p>
-                                <p className="font-semibold text-sm -mt-2 xl:text-md text-cinder-dark font-inter w-72 xl:w-96">
+                                <p className="font-semibold text-justify text-sm -mt-2 xl:text-md text-cinder-dark font-inter w-72 xl:w-96">
                                     {project.description}
                                 </p>
                                 <div className="flex gap-3 text-cinder-light font-medium font-inter">
