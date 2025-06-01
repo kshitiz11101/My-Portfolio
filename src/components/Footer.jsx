@@ -24,7 +24,7 @@ const Footer = () => {
               <i className="text-2xl fa-regular fa-envelope"></i>
               <div className="flex flex-col">
                 <a
-                  href="mailto:edwindivine5@gmail.com"
+                  href="mailto:kshitizpvt01sharma@gmail.com"
                   className="font-inter text-cinder-light dark:text-grey font-normal text-sm"
                 >
                   kshitizpvt01sharma@gmail.com
