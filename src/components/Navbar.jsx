@@ -34,11 +34,13 @@ const Navbar = ({ darkMode, darkToggle }) => {
 
   return (
     <>
-      <nav data-aos="zoom-in" data-aos-duration="800" 
-        className={`flex md:flex relative justify-between items-center px-10 py-5 font-inter ${darkMode ? "dark" : ""
-          }`}
-        id="navbar"
-      >
+        <nav
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          className="flex md:flex relative justify-between items-center px-10 py-5 font-inter"
+          id="navbar"
+        >
+
         <p className="text-lg font-bold font-inter text-cinder-dark-mode">
           <i className="text-3xl fa-solid fa-code"></i>
         </p>
@@ -47,7 +49,7 @@ const Navbar = ({ darkMode, darkToggle }) => {
           {Links.map((link, index) => (
             <li key={index}>
               <a
-                className="hover:text-cinder-dark-mode hover:border hover:rounded-lg hover:shadow-md hover:font-semibold hover:p-2"
+                className=" dark:hover:text-cinder-dark-mode  dark:hover:font-semibold hover:text-cyan-900 hover:font-semibold"
                 href={link.href}
               >
                 {link.label}
@@ -69,10 +71,10 @@ const Navbar = ({ darkMode, darkToggle }) => {
             )}
           </div>
           <a
-            href="https://drive.google.com/file/d/1zbNj4rlCuem7lZVvVJCoYzAuyfoYNsKE/view?usp=sharing"
+            href="https://drive.google.com/file/d/19N4zt2Cgf_jZyUpmSn4HH0-3r8c_3FNN/view?usp=sharing&usp=embed_facebook"
             target="_blank"
             download="Kshitiz Sharma resume.pdf"
-            className="border rounded-lg p-2 text-cinder-dark dark:text-gray-100 font-pjs hover:text-cinder-dark-mode dark:hover:text-cinder-dark-mode hover:shadow-md hover:font-semibold" rel="noreferrer"
+            className="border border-black rounded-xl p-2 dark:border-white text-cinder-dark dark:text-gray-100 font-pjs hover:text-cinder-dark-mode dark:hover:text-cinder-dark-mode hover:shadow-md hover:font-semibold" rel="noreferrer"
           >
             Resume
           </a>
